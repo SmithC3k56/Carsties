@@ -19,6 +19,7 @@
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.1.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="7.0.13" />
+    <PackageReference Include="MassTransit.EntityFrameworkCore" Version="8.1.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,11 +27,18 @@
     <None Remove="Data\" />
     <None Remove="DTOs\" />
     <None Remove="RequestHelpers\" />
+    <None Remove="Consumers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Data\" />
     <Folder Include="DTOs\" />
     <Folder Include="RequestHelpers\" />
+    <Folder Include="Consumers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Contracts\Contracts.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
