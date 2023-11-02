@@ -1,0 +1,2 @@
+﻿- run file docker compose: docker compose up
+    + note: if run it in server let't use vs code export your ip to localhost. Because I am configuring RabbitMQ on local

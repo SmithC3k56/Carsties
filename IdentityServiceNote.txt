@@ -1,0 +1,4 @@
+﻿Technogy uesed: https://duendesoftware.com/
+
+- Instal the templates using following cmd : dotnet new -i Duende.IdentityServer.Templates
+- After that, for create a new project Identity that run following cmd:  dotnet new isaspid -o IdentityService 
