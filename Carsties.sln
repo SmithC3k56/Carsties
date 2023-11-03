@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2E1FCC0F-4
 		Start Project.txt = Start Project.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayService", "GatewayService\GatewayService.csproj", "{7B8676BD-5CD3-4D01-BF68-CE5D9F0638F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{8FBB25F3-C9DA-4706-B34C-7C4C2B376123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FBB25F3-C9DA-4706-B34C-7C4C2B376123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FBB25F3-C9DA-4706-B34C-7C4C2B376123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8676BD-5CD3-4D01-BF68-CE5D9F0638F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8676BD-5CD3-4D01-BF68-CE5D9F0638F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8676BD-5CD3-4D01-BF68-CE5D9F0638F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8676BD-5CD3-4D01-BF68-CE5D9F0638F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +61,6 @@ Global
 		{5F3EC022-9F69-4742-B13D-CF887C4E3197} = {93144128-60CD-441D-A28B-B86DCA4399D2}
 		{8FBB25F3-C9DA-4706-B34C-7C4C2B376123} = {93144128-60CD-441D-A28B-B86DCA4399D2}
 		{2E1FCC0F-4D34-4C76-BD65-B0A83ED3E356} = {93144128-60CD-441D-A28B-B86DCA4399D2}
+		{7B8676BD-5CD3-4D01-BF68-CE5D9F0638F0} = {93144128-60CD-441D-A28B-B86DCA4399D2}
 	EndGlobalSection
 EndGlobal
