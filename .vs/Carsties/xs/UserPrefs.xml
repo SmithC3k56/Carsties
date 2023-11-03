@@ -1,0 +1,7 @@
+﻿<Properties StartupConfiguration="{435415BB-77A1-498A-988E-262A091F3E09}|http">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AuctionService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <DisabledProjects>
+    <String>AuctionService/AuctionService.csproj</String>
+  </DisabledProjects>
+</Properties>
