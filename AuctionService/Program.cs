@@ -1,6 +1,7 @@
 ﻿using AuctionService.Consumers;
 using AuctionService.Data;
 using MassTransit;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -20,6 +21,7 @@ builder.Services.AddDbContext<AuctionDbContext>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+//using transit lib for connect with rabbitmq
 builder.Services.AddMassTransit(x => {
 
     x.AddEntityFrameworkOutbox<AuctionDbContext>(o =>
@@ -38,6 +40,18 @@ builder.Services.AddMassTransit(x => {
         cfg.ConfigureEndpoints(context);
     });
 });
+
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(option =>
+    {
+        option.Authority = builder.Configuration["IdentityServiceUrl"];
+        option.RequireHttpsMetadata = false;
+        option.TokenValidationParameters.ValidateAudience = false;
+        option.TokenValidationParameters.NameClaimType = "username";
+    });
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -48,7 +62,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

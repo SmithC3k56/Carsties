@@ -23,8 +23,10 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove="Pages\Account\Register\" />
+	  <None Remove="Services\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Pages\Account\Register\" />
+	  <Folder Include="Services\" />
 	</ItemGroup>
 </Project>

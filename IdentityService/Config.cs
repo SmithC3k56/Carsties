@@ -21,7 +21,12 @@ public static class Config
         new Client[]
         {
             new Client{
-                ClientId="postman"
+                ClientId="postman",
+                ClientName="Postman",
+                AllowedScopes={"openid", "profile", "auctionApp"},
+                RedirectUris ={"https://www.getpostman.com/oauth2/callback"},
+                ClientSecrets = new[] {new Secret ("NotASecret".Sha256() ) }    ,
+                AllowedGrantTypes ={GrantType.ResourceOwnerPassword}
             }
         };
 }
