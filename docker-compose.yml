@@ -60,11 +60,21 @@ services:
       context: .
       dockerfile: src/IdentityService/Dockerfile
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80
       - ConnectionStrings__DefaultConnection=Server=postgres:5432;Username=postgres;Password=example;Database=identity
     ports:
       - 5000:80
     depends_on:
       - postgres
+  gateway-svc:
+    image: smith/gateway-svc:latest
+    build: 
+      context: .
+      dockerfile: src/GatewayService/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - 6001:80
       
