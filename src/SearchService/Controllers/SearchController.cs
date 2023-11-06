@@ -30,12 +30,12 @@ namespace SearchService.Controllers
 				_ => query.Sort(x => x.Ascending(a => a.AuctionEnd))
 			};
 
-			query = searchParams.FilterBy switch
-			{
-				"finished" => query.Match(x => x.AuctionEnd < DateTime.UtcNow),
-				"endingSoon" => query.Match(x => x.AuctionEnd < DateTime.UtcNow.AddHours(6) && x.AuctionEnd > DateTime.UtcNow),
-				_ => query.Match(x => x.AuctionEnd > DateTime.UtcNow)
-			} ;
+			//query = searchParams.FilterBy switch
+			//{
+			//	"finished" => query.Match(x => x.AuctionEnd < DateTime.UtcNow),
+			//	"endingSoon" => query.Match(x => x.AuctionEnd < DateTime.UtcNow.AddHours(6) && x.AuctionEnd > DateTime.UtcNow),
+			//	_ => query.Match(x => x.AuctionEnd > DateTime.UtcNow)
+			//} ;
 			if(!string.IsNullOrEmpty(searchParams.Seller)){
 				query.Match(x => x.Seller == searchParams.Seller);
 			}

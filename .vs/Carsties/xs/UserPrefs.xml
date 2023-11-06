@@ -1,7 +1,47 @@
-﻿<Properties StartupConfiguration="{435415BB-77A1-498A-988E-262A091F3E09}|http">
+﻿<Properties StartupConfiguration="{925B7312-CA78-4EFF-89FA-C925BC7D0611}|http">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/SearchService/Controllers/SearchController.cs">
+    <Files>
+      <File FileName="src/SearchService/Program.cs" Line="32" Column="47" IsPinned="True" />
+      <File FileName="Start Project.txt" />
+      <File FileName="docker-compose.txt" />
+      <File FileName="src/AuctionService/Dockerfile" />
+      <File FileName="src/AuctionService/appsettings.json" />
+      <File FileName="src/AuctionService/Program.cs" />
+      <File FileName="src/SearchService/Services/AuctionSvcHttpClient.cs" Line="31" Column="1" />
+      <File FileName="src/AuctionService/Controllers/WeatherForecastController.cs" />
+      <File FileName="src/AuctionService/Controllers/AuctionConroller.cs" />
+      <File FileName="src/SearchService/Data/DbInitializer.cs" Line="36" Column="1" />
+      <File FileName="src/SearchService/Models/Item.cs" />
+      <File FileName="src/SearchService/Data/auctions.json" />
+      <File FileName="src/SearchService/appsettings.json" />
+      <File FileName="src/SearchService/Controllers/SearchController.cs" Line="49" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Carsties" expanded="True">
+            <Node name="SearchService">
+              <Node name="Controllers">
+                <Node name="SearchController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.AuctionService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
   <DisabledProjects>
     <String>AuctionService/AuctionService.csproj</String>
   </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SearchService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AuctionService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
 </Properties>
