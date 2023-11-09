@@ -55,3 +55,7 @@
 /Users/mistersmith/Documents/microservice/demo/Carsties/src/BiddingService/obj/Debug/net7.0/BiddingService.pdb
 /Users/mistersmith/Documents/microservice/demo/Carsties/src/BiddingService/obj/Debug/net7.0/BiddingService.genruntimeconfig.cache
 /Users/mistersmith/Documents/microservice/demo/Carsties/src/BiddingService/obj/Debug/net7.0/ref/BiddingService.dll
+/Users/mistersmith/Documents/microservice/demo/Carsties/src/BiddingService/bin/Debug/net7.0/Contracts.dll
+/Users/mistersmith/Documents/microservice/demo/Carsties/src/BiddingService/bin/Debug/net7.0/Contracts.pdb
+/Users/mistersmith/Documents/microservice/demo/Carsties/src/BiddingService/bin/Debug/net7.0/AutoMapper.dll
+/Users/mistersmith/Documents/microservice/demo/Carsties/src/BiddingService/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -8,6 +8,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.59.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.13" />
@@ -22,6 +23,10 @@
     <PackageReference Include="MassTransit.EntityFrameworkCore" Version="8.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Protobuf Include="protos/auctions.proto" GrpcServices="Server" />
+  </ItemGroup>
+  
   <ItemGroup>
     <None Remove="Entities\" />
     <None Remove="Data\" />
