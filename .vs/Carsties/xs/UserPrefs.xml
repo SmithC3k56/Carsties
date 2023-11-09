@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{5B979272-0F0E-4E9C-9A13-3E29C7E0845E}|http">
-  <MonoDevelop.Ide.ItemProperties.SearchService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.ItemProperties.src.BiddingService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="src/BiddingService/Controllers/BidsController.cs">
     <Files>
       <File FileName="src/BiddingService/appsettings.json" />
@@ -22,15 +22,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.src.BiddingService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AuctionService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.ItemProperties.src.SearchService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
   <DisabledProjects>
     <String>AuctionService/AuctionService.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.AuctionService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
 </Properties>
