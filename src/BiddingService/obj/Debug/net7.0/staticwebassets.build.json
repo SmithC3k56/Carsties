@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "AJBMH+mn/ohsYe5m65xemhNTJ9IdTgcGXM+IiZKGP4I=",
+  "Hash": "TR4SOJLz0wo8Otuje62D7/RIb6VgOt8bHUsEcsBWW84=",
   "Source": "BiddingService",
   "BasePath": "_content/BiddingService",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "/Users/mistersmith/Documents/microservice/demo/Carsties/src/AuctionService/AuctionService.csproj",
-      "Version": 2,
-      "Source": "AuctionService",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }

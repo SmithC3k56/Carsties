@@ -14,11 +14,9 @@
     <SourceRoot Include="/Users/mistersmith/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/7.0.11/buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/7.0.11/buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)grpc.tools/2.59.0/build/Grpc.Tools.props" Condition="Exists('$(NuGetPackageRoot)grpc.tools/2.59.0/build/Grpc.Tools.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/mistersmith/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/Users/mistersmith/.nuget/packages/awssdk.core/3.7.100.14</PkgAWSSDK_Core>
     <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">/Users/mistersmith/.nuget/packages/awssdk.securitytoken/3.7.100.14</PkgAWSSDK_SecurityToken>
     <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">/Users/mistersmith/.nuget/packages/grpc.tools/2.59.0</PkgGrpc_Tools>
