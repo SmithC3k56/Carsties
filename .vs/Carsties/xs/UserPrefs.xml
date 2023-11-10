@@ -1,28 +1,22 @@
 ﻿<Properties StartupConfiguration="{5B979272-0F0E-4E9C-9A13-3E29C7E0845E}|http">
   <MonoDevelop.Ide.ItemProperties.src.BiddingService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/BiddingService/Controllers/BidsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/GatewayService/appsettings.json">
     <Files>
-      <File FileName="src/BiddingService/appsettings.json" />
-      <File FileName="src/BiddingService/Program.cs" />
-      <File FileName="src/SearchService/appsettings.json" />
-      <File FileName="src/BiddingService/Models/Auction.cs" />
-      <File FileName="src/BiddingService/Controllers/BidsController.cs" Line="21" Column="51" />
-      <File FileName="src/IdentityService/HostingExtensions.cs" Line="33" Column="10" />
-      <File FileName="src/AuctionService/AuctionService.csproj" Line="42" Column="36" />
+      <File FileName="src/NotificationService/Program.cs" />
+      <File FileName="src/NotificationService/Hubs/NotificationHub.cs" />
+      <File FileName="src/GatewayService/appsettings.json" Line="61" Column="38" />
+      <File FileName="src/GatewayService/appsettings.Development.json" />
+      <File FileName="src/GatewayService/appsetings.Docker.json" />
+      <File FileName="src/NotificationService/Consumers/AuctionCreatedConsumer.cs" />
+      <File FileName="src/NotificationService/Consumers/AuctionFinishedConsumer.cs" />
+      <File FileName="src/NotificationService/Consumers/BidPlacedConsumer.cs" />
+      <File FileName="src/GatewayService/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Carsties">
-            <Node name="src" expanded="True">
-              <Node name="BiddingService" expanded="True">
-                <Node name="ConnectedServicesFolder" expanded="True" />
-                <Node name="Controllers" expanded="True">
-                  <Node name="BidsController.cs" selected="True" />
-                </Node>
-                <Node name="protos" expanded="True" />
-              </Node>
-            </Node>
+          <Node name="Carsties" expanded="True" selected="True">
+            <Node name="src" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -7,29 +7,37 @@
  },
  "IdentityServiceUrl": "http://identity-svc",
    "ReverseProxy": {
-     "Clusters": {
-       "auctions": {
-         "Destinations": {
-           "auctionApi": {
-             "Address": "http://auction-svc"
-           }
-         }
-       },
-       "search": {
-         "Destinations": {
-           "searchApi": {
-             "Address": "http://search-svc"
-           }
-         }
-       },
-       "bids": {
-         "Destinations": {
-           "searchApi": {
-             "Address": "http://bid-svc"
-           }
-         }
-       }
-     }
+    "Clusters": {
+      "auctions": {
+        "Destinations": {
+          "auctionApi": {
+            "Address": "http://auction-svc"
+          }
+        }
+      },
+      "search": {
+        "Destinations": {
+          "searchApi": {
+            "Address": "http://search-svc"
+          }
+        }
+      },
+      "bids": {
+        "Destinations": {
+          "searchApi": {
+            "Address": "http://bid-svc"
+          }
+        }
+      },
+
+      "notifications": {
+        "Destinations": {
+          "notifyApi": {
+            "Address": "http://notify-svc"
+          }
+        }
+      }
+    }
    
  }
 }
