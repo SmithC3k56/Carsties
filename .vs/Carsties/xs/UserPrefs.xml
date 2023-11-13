@@ -1,5 +1,8 @@
 ﻿<Properties StartupConfiguration="{5B979272-0F0E-4E9C-9A13-3E29C7E0845E}|http">
-  <MonoDevelop.Ide.ItemProperties.src.BiddingService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="src/GatewayService/appsettings.json">
     <Files>
       <File FileName="src/NotificationService/Program.cs" />
@@ -16,7 +19,10 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Carsties" expanded="True" selected="True">
-            <Node name="src" expanded="True" />
+            <Node name="src" expanded="True">
+              <Node name="GatewayService" expanded="True" />
+              <Node name="NotificationService" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -26,9 +32,6 @@
     <String>AuctionService/AuctionService.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.BiddingService PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
   <MultiItemStartupConfigurations />
 </Properties>
